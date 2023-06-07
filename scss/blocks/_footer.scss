@@ -1,0 +1,142 @@
+/* start footer part  */
+.footer {
+  padding-top: 54px;
+  padding-bottom: 23px;
+  background-color: #F3F3F3;
+  border: 1px solid #EBEBEB;
+}
+
+.footer__wrapper {
+  display: flex;
+}
+
+.footer__img {
+  margin-right: 67px;
+}
+
+.footer__list {
+  margin-top: 0;
+  margin-right: 87px;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.second__list {
+  margin-right: 157px;
+}
+
+.footer__item {
+  margin-bottom: 14px;
+}
+
+.footer__item-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+  text-decoration: none;
+}
+
+.footer__item-link:hover {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFBD54;
+}
+
+.footer__item-link:active {
+  color: #333333b3;
+}
+
+.footer__date-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-right: 138px;
+}
+
+.footer__date-wrapper::before {
+  position: absolute;
+  left: -24px;
+  display: block;
+  width: 14px;
+  height: 14px;
+  background-image: url(../images/header-schedule.svg);
+  content: "";
+}
+
+.footer__time {
+  margin-bottom: 3px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+}
+
+.footer__adres-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-style: normal;
+}
+
+.footer__adres {
+  position: relative;
+  margin-right: 110px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+  text-decoration: none;
+}
+
+.footer__adres::before {
+  position: absolute;
+  top: 6px;
+  left: -24px;
+  display: block;
+  width: 14px;
+  height: 14px;
+  background-image: url(../images/header-home.svg);
+  content: "";
+}
+
+.footer__number-wrapper {
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.footer__number-wrapper::before {
+  position: absolute;
+  top: 4px;
+  left: -24px;
+  display: block;
+  width: 14px;
+  height: 14px;
+  background-image: url(../images/header-phone.svg);
+  content: "";
+}
+
+.footer__number {
+  margin-bottom: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: right;
+  color: #333333;
+  text-decoration: none;
+}
+
+
+.footer__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: end;
+  color: #5C5C5C;
+}
+/* finish footer  */
