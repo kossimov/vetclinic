@@ -1,0 +1,31 @@
+.benefits {
+  padding-top: 118px;
+  padding-bottom: 132px;
+  background-image: url("../images/benefits-cat.png");
+  background-repeat: no-repeat;
+  background-position: calc(76%);
+}
+
+.benefits__title-wrapper {
+  width: 560px;
+}
+
+.benefits__title {
+  margin-top: 0;
+  margin-bottom: 21px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 64px;
+  color: #333333;
+}
+
+.benefits__text {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+  
+}

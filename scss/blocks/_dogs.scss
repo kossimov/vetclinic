@@ -1,0 +1,77 @@
+.dog {
+  padding-bottom: 126px;
+}
+
+.dog__all-wrapper {
+  display: flex;
+}
+
+.dogs__wrapper {
+  padding: 68px 110px 68px 82px;
+}
+
+.dogs__link-wrapper {
+  display: flex;
+  margin-bottom: 35px;
+}
+
+.dogs__link {
+  margin-right: 342px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #3D9CEA;
+  text-decoration: none;
+}
+
+.dogs__time {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #949494;
+}
+
+.dogs__text-wrapper {
+  width: 517px;
+}
+
+.dogs__title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 38px;
+  color: #333333;
+}
+
+.dogs__text {
+  margin-top: 0;
+  margin-bottom: 51px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+}
+
+.dogs__text-link {
+  position: relative;
+  padding-left: 29px;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #333333;
+}
+
+.dogs__text-link::before {
+  position: absolute;
+  left: 0px;
+  display: block;
+  width: 23px;
+  height: 21px;
+  background-image: url("../../images/dog-lapa.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+}
