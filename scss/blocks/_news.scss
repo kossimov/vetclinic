@@ -175,4 +175,13 @@
   background-color: #333333;
   border-radius: 3px;
 }
+
+.news__main-link:hover {
+  background-color: #FFBD54;
+  border-radius: 3px;
+}
+
+.news__main-link:active {
+  opacity: 0.6;
+}
 /* finish news section  */
