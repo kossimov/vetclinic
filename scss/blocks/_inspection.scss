@@ -20,6 +20,11 @@
   border-radius: 5px 5px 0px 0px ;
 }
 
+.inspection__item:hover .inspection__link {
+  background-color: #000;
+  border-radius: 3px;
+}
+
 .inspection__title {
   position: relative;
   margin-top: 0;
