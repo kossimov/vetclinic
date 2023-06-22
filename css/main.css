@@ -1281,6 +1281,232 @@ img {
   list-style: none;
 }
 
+.faq {
+  padding-top: 110px;
+  padding-bottom: 270px;
+}
+
+.faq__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.faq__left {
+  width: 447px;
+  margin-bottom: 63px;
+}
+
+.faq__heading {
+  margin-top: 0;
+  margin-bottom: 27px;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 64px;
+  color: #333;
+}
+
+.faq__text {
+  margin-top: 0;
+  margin-bottom: 35px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+}
+
+.faq__link {
+  display: flex;
+  align-items: center;
+  width: 201px;
+  padding: 15px 38px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #fff;
+  text-decoration: none;
+  background: #78c0de;
+  border-radius: 3px;
+}
+
+.faq__link::before {
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  margin-right: 6px;
+  background-image: url("../../images/faq-svg.svg");
+  background-repeat: no-repeat;
+  content: "";
+}
+
+.faq__right {
+  position: absolute;
+  top: calc(50% - 320px);
+  right: calc(50% - 690px);
+  width: 569px;
+  height: 466px;
+  background-image: url("../../images/faq-cat.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 1px) calc(50% + 70px);
+}
+
+.faq__bottom-list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.faq__bottom-item {
+  width: 752px;
+  margin-bottom: 18px;
+  padding: 23px 0 44px 63px;
+  background: #fff;
+  border: 1px solid #f3f3f3;
+  border-radius: 5px;
+  box-shadow: 0px 4px 14px #CDE3EF;
+}
+
+.faq__bottom-item:nth-child(3) {
+  opacity: 0.6;
+}
+
+.faq__bottom-item:last-child {
+  margin-bottom: 0;
+  opacity: 0.6;
+}
+
+.faq__bottom-item-inner {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.faq__bottom-item-time {
+  display: flex;
+  align-items: center;
+  margin-right: 28px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #333;
+}
+
+.faq__bottom-item-time::before {
+  display: block;
+  width: 23px;
+  height: 20px;
+  margin-right: 7px;
+  background-image: url("../../images/faq-pet.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+}
+
+.blue-arrow::before {
+  display: block;
+  width: 23px;
+  height: 20px;
+  margin-right: 7px;
+  background-image: url("../../images/faq-blue.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+}
+
+.faq__bottom-item-robot {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #78C0DE;
+}
+
+.faq__bottom-heading-wrapper {
+  width: 539px;
+}
+
+.faq__bottom-heading {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+  color: #333;
+}
+
+.faq__bottom-heading::after {
+  display: block;
+  margin-left: auto;
+  margin-right: 41px;
+  width: 9px;
+  height: 16px;
+  background-image: url("../../images/faq-arrow.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+}
+
+.list-one::after {
+  display: block;
+  margin-left: auto;
+  margin-right: 41px;
+  width: 9px;
+  height: 16px;
+  background-image: url("../../images/arrow-up.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+}
+
+.list-one {
+  display: flex;
+  margin-bottom: 23px;
+}
+
+.clock::after {
+  display: block;
+  margin-left: auto;
+  margin-right: 41px;
+  width: 21px;
+  height: 21px;
+  background-image: url("../../images/faq-clock.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+}
+
+.faq__bottom-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+}
+
+.faq__bottom-text-wrapper {
+  width: 577px;
+}
+
+.faq__bg-wrapper {
+  margin-bottom: 61px;
+}
+
+.faq__bg {
+  position: absolute;
+  top: calc(50% + 640px);
+  right: calc(50% - 740px);
+  width: 654px;
+  height: 640px;
+  background-image: url("../../images/bird.png");
+  background-repeat: no-repeat;
+  background-size: 654px 640px;
+}
+
 /* start footer part  */
 .footer {
   padding-top: 54px;
